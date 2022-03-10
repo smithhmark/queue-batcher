@@ -13,3 +13,6 @@ Cargo.lock
 # Added by cargo
 
 /target
+
+# ignore the container file created by the test helpers
+/tests/rabbit.container
