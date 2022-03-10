@@ -11,3 +11,8 @@ if you have a docker image for `rabbitmq:latest` then the following will confirm
 1. when testing is complete:
    1. stop the rabbitmq container, eg run: `bash tests/stop_rabbit.sh`
    1. stop the hello_consumer by typing Ctrl-C in that shell
+
+## References and Thanks
+The hello producer and consumer come straight from the amiquip examples: [see here](https://github.com/jgallagher/amiquip/tree/main/examples)
+
+
