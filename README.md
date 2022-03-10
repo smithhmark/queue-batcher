@@ -8,4 +8,6 @@ if you have a docker image for `rabbitmq:latest` then the following will confirm
    1. in the first, run `cargo run --bin hello_consumer`
    1. in the second, run `cargo run --bin hello_producer`
 1. confirm in the first shell that the producer as printed that it recieved a message
-1. when testing is complete, stop the rabbitmq container, eg run: `bash tests/stop_rabbit.sh`
+1. when testing is complete:
+   1. stop the rabbitmq container, eg run: `bash tests/stop_rabbit.sh`
+   1. stop the hello_consumer by typing Ctrl-C in that shell
