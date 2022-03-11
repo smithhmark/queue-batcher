@@ -1,4 +1,3 @@
-
 fn message() -> String {
     String::from("Hello world")
 }
@@ -23,7 +22,7 @@ mod tests {
     fn message_endswith_world() {
         let expected = String::from("world");
         let msg = message();
-        assert_eq!(expected, msg[msg.len()-expected.len()..]);
+        assert_eq!(expected, msg[msg.len() - expected.len()..]);
         assert!(msg.ends_with(&expected));
     }
 }

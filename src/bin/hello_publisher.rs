@@ -1,4 +1,3 @@
-
 // Port of https://www.rabbitmq.com/tutorials/tutorial-one-python.html. Start the
 // hello_world_consume example in one shell, and run this in another.
 use amiquip::{Connection, Exchange, Publish, Result};
